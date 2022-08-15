@@ -1,5 +1,5 @@
 
-# FB-API
+# Project Title
 
 Facebook API integration is to get the Basic Information of LoggedIn User.
 It Authenticate the User via Facebook Oath, and get the Basic Information
@@ -85,4 +85,10 @@ To deploy this project run
 ```bash
   npm run start
 ```
+
+
+## Documentation
+
+App will redirect to FB Oauth Login page, after successful login it redirects to authenticate/facebook endpoint with the access code and by using the access code we would call the user/me api to get the user basic informations
+
 
